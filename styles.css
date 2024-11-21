@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(6, 120, 251);
+    background-color: rgb(255, 255, 255);
+}
+
+header,
+footer {
+    background-color: rgb(255, 215, 0);
+    color: rgb(36, 31, 31);
+    text-align: center;
+    padding: 15;
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+.ContenedorUno{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgba(9, 244, 79, 0.819);
+    background-color: rgb(128, 192, 192);
+    font-size: 2.5rem;
+    color: #07f91c;
+    text-align: center;
+    animation: slide-in 2s ease-out;
+
+
+}
+
+.ContenedorDos{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(80, 43, 129);
+    background-color: rgb(128, 192, 192);
+    font-size: 2.5rem;
+    color: #0bd362;
+    text-align: center;
+    animation: slide-in 2s ease-out;
+    
+
+}
+.img1{
+   width: 350px;
+   height: 250px;
+    
+    
+}
+
+.Yo {
+    color: rgb(7, 236, 38);
+}
+.datos{
+    color: rgb(1, 12, 2);
+}
+.Contenedortres{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(128, 192, 192);
+    font-size: 2.5rem;
+    color: #f78a05;
+    text-align: center;
+    animation: slide-in 2s ease-out;
+   
+}
+.txt{
+    margin-right: 0px;
+    
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(10%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animated-title {
+    font-size: 2.5rem;
+    color: #007BFF;
+    text-align: center;
+    animation: slide-in 2s ease-out;
+}
